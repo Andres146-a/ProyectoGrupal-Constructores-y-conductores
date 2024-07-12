@@ -1,0 +1,57 @@
+/* Estilo para el VBox */
+.vbox {
+    -fx-background-color: #d3d3d3; /* Fondo gris claro */
+    -fx-spacing: 10; /* Espaciado entre hijos */
+    -fx-padding: 20; /* Padding alrededor del VBox */
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #4CAF50; /* Verde */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+/* Estilo para el HBox que contiene los botones */
+.hbox {
+    -fx-spacing: 10; /* Espaciado entre hijos */
+    -fx-padding: 20; /* Padding alrededor del HBox */
+    -fx-alignment: center; /* Centra los hijos verticalmente */
+}
+
+/* Estilo para el botón en el borde izquierdo */
+.button-left {
+    -fx-background-color: #4CAF50; /* Verde */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-alignment: center-left; /* Alinea el botón a la izquierda */
+}
+
+/* Estilo para el botón en el borde derecho */
+.button-right {
+    -fx-background-color: #4CAF50; /* Verde */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-alignment: center-right; /* Alinea el botón a la derecha */
+}
+
+/* Estilo para la TableView */
+.table-view {
+    -fx-background-color: #ffffff; /* Fondo blanco */
+    -fx-border-color: #cccccc; /* Borde gris claro */
+}
+
+/* Estilo para la columna de encabezado de la tabla */
+.table-column-header {
+    -fx-background-color: #4CAF50; /* Verde */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-font-size: 14px;
+}
+
+/* Estilo para la ventana */
+.stage {
+    -fx-background-color: #d3d3d3; /* Fondo gris claro */
+}
